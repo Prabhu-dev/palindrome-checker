@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: "Rubik Pixels", system-ui;
+    padding: 1%;
+}
+
+#warpper {
+    background-image: url(/Palindrome-Checker/palindrome-bg.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 70vh;
+    padding: 5%;
+}
+
+p {
+ color: white;
+ font-weight: bolder;
+ text-align: center;
+ font-size: larger;
+}
+
+#text-input {
+    padding: 2% 5% 2% 5%;
+    border-radius: 5px;
+}
+
+#check-btn {
+    color: white;
+    background-color: green;
+    border: none;
+    padding: 2% 5% 2% 5%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.main-wrapper {
+    background-color: greenyellow;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;    
+}
+
+#result-wrapper {
+    background-color: white;
+    border-radius: 10px;
+    display: none;
+}
+
+#result {
+    color: green;
+    padding: 2%;   
+}
+
+@media screen and (min-width: 480px) {
+ 
+   #wrapper{
+    height: 90%;
+   } 
+ 
+}
