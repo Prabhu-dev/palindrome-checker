@@ -1,14 +1,6 @@
 body {
-    background-color: white;
+    background-color: green;
     font-family: "Rubik Pixels", system-ui;
-    padding: 1%;
-}
-
-#warpper {
-    background-image: url("/assets/palindrome-bg.jpg");
-    background-size: cover;
-    width: 90%;
-    height: 70vh;
     padding: 5%;
 }
 
@@ -53,12 +45,4 @@ p {
 #result {
     color: green;
     padding: 2%;   
-}
-
-@media screen and (min-width: 480px) {
- 
-   #wrapper{
-    height: 90%;
-   } 
- 
 }
