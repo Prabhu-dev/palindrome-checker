@@ -5,7 +5,7 @@ body {
 }
 
 #warpper {
-    background-image: url(/Palindrome-Checker/palindrome-bg.jpg);
+    background-image: url(/palindrome-bg.jpg);
     background-size: cover;
     width: 90%;
     height: 70vh;
